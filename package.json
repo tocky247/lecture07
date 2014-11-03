@@ -1,0 +1,24 @@
+{
+  "name": "lecture07",
+  "version": "1.0.0",
+  "description": "Sample codes for lecture #07",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ronpro2014f/lecture07.git"
+  },
+  "author": "N.Shimizu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ronpro2014f/lecture07/issues"
+  },
+  "homepage": "https://github.com/ronpro2014f/lecture07",
+  "dependencies": {
+    "express": "^4.10.1",
+    "gulp": "^3.8.9",
+    "gulp-util": "^3.0.1"
+  }
+}
