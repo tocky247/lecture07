@@ -3,6 +3,10 @@ h1{
   margin-bottom: 0;
 }
 
+video{
+  width: 100%;
+}
+
 .nav > li{
   list-style: none;
   margin-bottom: .5em;
