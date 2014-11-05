@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <title>lecture07</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/app.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <h1 class="navbar-brand">Lecture07</h1>
+      </div>
+    </nav>
+    <div class="container-fluid main">
+      <h2>加速度、傾きセンサー</h2>
+      <table class="table table-striped">
+        <tr>
+          <td>alpah</td><td id="alpha">不明</td>
+        </tr>        
+        <tr>
+          <td>beta</td><td id="beta">不明</td>
+        </tr>
+        <tr>
+          <td>gamma</td><td id="gamma">不明</td>
+        </tr>
+      </table>
+    </div>
+    <div class="footer container-fluid">
+      <h2>他のセンサー</h2>
+      <ul class="nav">
+        <li><a href="/ambient-light" class="btn btn-default btn-block">環境光センサー</a></li>
+        <li><a href="/geolocation" class="btn btn-default btn-block">位置情報</a></li>
+        <li><a href="/device-orientation" class="btn btn-default btn-block">加速度、傾きセンサー</a></li>
+        <li><a href="/video-capture" class="btn btn-default btn-block">カメラ</a></li>
+      </ul>
+    </div>
+    <script src="../js/device-orientation.js"></script>
+  </body>
+</html>
