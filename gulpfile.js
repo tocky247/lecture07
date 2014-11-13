@@ -6,7 +6,7 @@ gulp.task("start-server", function() {
   console.log(process.cwd() + "/app");  
   console.log(app);
   var server = app.create({
-    port:8080,
+    port:1234,
     documentRoot: "./app"
   });
   server.start();

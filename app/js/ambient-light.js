@@ -1,7 +1,7 @@
 var THREASHOLD = 50;
 var CLASSNAME = "night";
 
-var elm = document.querySelector("body");
+var elm = document.querySelector("h2");
 
 var update = function(event){
   console.log(event.value);
